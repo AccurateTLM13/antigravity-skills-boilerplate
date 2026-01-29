@@ -1,1 +1,10 @@
-CRITICAL: Always read and follow the protocols in `./.agent/instructions.md` before initiating any workflow. Every project must start with 'Phase 0: Pack Discovery'.
+CRITICAL: Follow this sequence for every project:
+
+1. Check for prd.md → If missing, run /prd-builder
+2. Phase 0: Pack Discovery → Run /pack-discovery to fetch skills from GitHub
+3. Phase 1: Project Roadmap → Run /roadmap-generator
+4. Phase 2+: Implementation → Execute per roadmap phases
+
+Always read .agent/instructions.md before any work.
+Skills from custom/third-party repos require /skill-preview before activation.
+Maintain .agent/project-context.md as a living document throughout the project.
