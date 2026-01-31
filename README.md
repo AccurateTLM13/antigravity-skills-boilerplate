@@ -31,9 +31,9 @@ Or use the slash command: **`/pack-discovery`**
 ```mermaid
 flowchart LR
     A[No PRD?] -->|/prd-builder| B[Create prd.md]
-    B --> C[/pack-discovery]
+    B --> C[/pack-discovery/]
     C --> D[Fetch skills from GitHub]
-    D --> E[/roadmap-generator]
+    D --> E[/roadmap-generator/]
     E --> F[Start building!]
 ```
 
