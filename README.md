@@ -1,3 +1,5 @@
+![Antigravity Skills Boilerplate Banner](assets/antigravity-banner.png)
+
 # Antigravity Skills Boilerplate
 
 **Agentic AI Workflow Starter Kit**
